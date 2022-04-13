@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /billing/
+Disallow: /terms-of-use-and-privacy-policy
+Disallow: /FREE-tacos-come-get-them/
+
+Sitemap: https://www.silvers.net/sitemap.xml

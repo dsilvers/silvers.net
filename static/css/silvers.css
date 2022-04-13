@@ -1,0 +1,154 @@
+@font-face {
+  font-family: Roboto Condensed;
+  src: url('/static/fonts/Roboto_Condensed/RobotoCondensed-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: Roboto Condensed;
+  src: url('/static/fonts/Roboto_Condensed/RobotoCondensed-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Ropa Sans;
+  src: url('/static/fonts/Ropa_Sans/RopaSans-Regular.woff2') format('woff2');
+}
+
+body {
+ font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav {
+  border-bottom: 2px solid #cecece;
+  margin-bottom: 1rem;
+  background-color:  #dedede;
+}
+
+.logo-text {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 2.2rem;
+}
+
+.logo-text-blue {
+  color:  blue;
+}
+
+.logo-text-orange {
+  color:  #de6f00;
+}
+
+h1 {
+  font-size:  calc(1.375rem + 1.5vw);
+  text-decoration: underline;
+  text-decoration-color:  #de6f00;
+  text-decoration-thickness: 6px;
+  margin-bottom: 1.0rem;
+}
+
+.home-blocky-thing h3 {
+  font-size: calc(0.775rem + 1.5vw);
+
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  margin-right: .6rem;
+}
+
+.blue {
+  text-decoration-color:  blue !important;
+}
+
+.yellow {
+  text-decoration-color:  #ffd269 !important;
+}
+
+.green {
+  text-decoration-color:  green !important;
+}
+
+.red {
+  text-decoration-color:  red !important;
+}
+
+.purple {
+  text-decoration-color:  purple !important;
+}
+
+.orangish {
+  text-decoration-color:  #ff6038 !important;
+}
+
+.pink {
+  text-decoration-color:  #ff5ef7 !important;
+}
+
+.api {
+  text-decoration-color:  #ff1f80 !important;
+}
+
+.postgresql {
+  text-decoration-color: #336791 !important;
+}
+
+.django {
+  text-decoration-color: #0C4B33 !important;
+}
+
+.flask {
+  text-decoration-color: #444 !important;
+}
+
+.wagtail {
+  text-decoration-color: #3beccd !important;
+}
+
+.python {
+  text-decoration-color: #ffdf76 !important;
+}
+
+.biz {
+  text-decoration-color: #6542ff !important;
+}
+
+.pay {
+  text-decoration-color: #59ff2b !important;
+}
+
+main {
+  font-size:  larger;
+  max-width:  900px;
+}
+
+ul.previous-clients {
+  margin-left: 0.5em;
+  list-style-type: none;
+}
+
+ul.previous-clients li {
+  margin-bottom: .4rem;
+}
+
+ul.biz-sol li {
+  margin-left: 1.5rem;
+  margin-right:  1.5rem;
+  margin-top: 2rem;
+  margin-bottom:  .3rem;
+  border-bottom: 1px dashed #ededed;
+}
+
+h4 {
+  margin-top: 2.0em;
+  border-bottom:  2px dotted #cecece;
+}
+
+.about-links a {
+  margin-right: 1em;
+  text-decoration: underline;
+  text-decoration-color:  #de6f00;
+  text-decoration-thickness: 2px;
+}
+
+
+.copyright {
+  color: #aeaeae;
+  font-size: smaller;
+}

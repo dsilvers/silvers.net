@@ -1,0 +1,41 @@
+{% extends "_base.html" %}
+
+{% block content %}
+
+<h1>We engineer <b>incredibly useful</b> web apps for <b>amazing</b> businesses and non-profits.</h1>
+
+
+<h4>A FEW THINGS WE DO:</h4>
+
+
+<div class="home-blocky-thing mt-2 mb-5">
+    <h3 class="blue">Custom Web Apps.</h3>
+    <h3 class="yellow">Rapid Prototyping.</h3>
+    <h3 class="green">Backend Engineering.</h3>
+    <h3 class="biz">Business Automation.</h3>
+    <h3 class="pay">Payment Processing.</h3>
+    <h3 class="red">Bare Metal Servers.</h3>
+    <h3 class="purple">Cloud Services.</h3>
+    <h3 class="postgresql">Databases.</h3>
+    <h3 class="orangish">Testing.</h3>
+    <h3 class="django">Django.</h3>
+    <h3 class="flask">Flask.</h3>
+    <h3 class="wagtail">Wagtail.</h3>
+    <h3 class="python">Python.</h3>
+    <h3 class="api">API's.</h3>
+
+    <h3 class="pink mt-5">....and a Lot More.</h3>
+</div>
+
+<h4>READ MORE ABOUT OUR WORK:</h4>
+
+<p>
+    <a href="{{ url_for('projects') }}">+ Our Clients and Projects</a>
+</p>
+<p>
+    <a href="{{ url_for('webdev') }}">+ What can we do to help <i>Your</i> Business?</a>
+</p>
+
+
+
+{% endblock %}

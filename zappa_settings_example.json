@@ -1,0 +1,18 @@
+{
+    "prod": {
+        "profile_name": "silvers-website",
+        "project_name": "silvers-net",
+        "runtime": "python3.9",
+        "s3_bucket": "silvers-zappa-bucket-name",
+        "route53_enabled": false,
+        "app_function": "silvers.webapp",
+        "domain": "lambda-deployment-domain.silvers.net",
+        "certificate_arn": "",
+        "exclude": [
+            "*.zip",
+            ".direnv",
+            "static"
+        ],
+
+    }
+}
