@@ -41,8 +41,12 @@ h1 {
   font-size:  calc(1.375rem + 1.5vw);
   text-decoration: underline;
   text-decoration-color:  #de6f00;
-  text-decoration-thickness: 6px;
+  text-decoration-thickness: 3px;
   margin-bottom: 1.0rem;
+}
+
+h1.home-loud {
+  text-decoration: none;
 }
 
 .home-blocky-thing h3 {
